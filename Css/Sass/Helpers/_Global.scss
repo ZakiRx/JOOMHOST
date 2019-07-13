@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    @include prefixer(webkit moz, box-sizing, border-box);
+}
+
+body {
+    font-family: tahoma;
+    font-size: 16px;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-bold{
+    font-weight: bold;
+}
+.ul-instyled {
+    list-style: none;
+    float: left;
+}
+
+.main-color {
+    color: $mainColor;
+}
+.red {
+    color: #ea3700;
+
+}
+
+.lime {
+    color: #21e5b5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+.upper{
+    text-transform: uppercase;
+}
